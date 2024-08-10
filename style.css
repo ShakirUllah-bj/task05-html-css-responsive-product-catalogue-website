@@ -1,0 +1,389 @@
+    * {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+    }
+    
+    body {
+        width: 100%;
+        /* height: 100vh; */
+        background-color: rgb(213, 218, 231);
+    }
+    
+     :root {
+        --shadow: 1px 1px 5px rgb(80, 77, 77);
+    }
+    /* NAVBAR SECTION */
+    
+    nav {
+        /* border: 2px solid black; */
+        width: 100%;
+        height: auto;
+        background-color: rgb(143, 137, 224);
+        padding: 1.5% 0;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+    }
+    
+    nav img {
+        width: 8%;
+    }
+    
+    nav input {
+        width: 30%;
+        padding: 1%;
+        background-image: url(./assets/icons/search-icon.png);
+        background-repeat: no-repeat;
+        background-position: 98% center;
+        background-size: contain;
+        border: none;
+        outline: none;
+        box-shadow: var(--shadow);
+        border-radius: 2px;
+    }
+    
+    .nav-icons {
+        width: 15%;
+        text-align: center;
+    }
+    
+    .nav-icons span img {
+        width: 20%;
+        padding: 2%;
+    }
+    /* NAVBAR SECTION */
+    /* HEADER CONTENT SECTION */
+    
+    .header-content {
+        width: 100%;
+        height: 250px;
+        margin-top: 2%;
+        /* border: 2px solid red; */
+        display: flex;
+        justify-content: space-between;
+        padding: 0;
+        padding-left: 2%;
+    }
+    
+    main .all-categories {
+        /* border: 2px solid green; */
+        width: 26%;
+        background-color: white;
+        box-shadow: var(--shadow);
+        border-radius: 2px;
+    }
+    
+    .all-categories h3 {
+        background-color: rgb(81, 81, 247);
+        color: white;
+        width: 90%;
+        margin: 4% auto;
+        padding: 1%;
+        text-align: center;
+    }
+    
+    .all-categories ul {
+        list-style: none;
+        margin-left: 15%;
+    }
+    
+    .all-categories ul li {
+        line-height: 200%;
+    }
+    
+    .all-categories ul li a {
+        display: inline-block;
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+    }
+    
+    .header-content img {
+        /* border: 4px solid magenta; */
+        width: 72%;
+        height: 100%;
+    }
+    /* HEADER CONTENT SECTION */
+    /* SMART PHONES SECTION */
+    
+    .Smart-phones-container {
+        width: 100%;
+        height: auto;
+        /* border: 2px solid black; */
+        margin: 4% 0;
+        /* padding: 1%; */
+    }
+    
+    .Smart-phones {
+        /* border: 2px solid red; */
+        margin: 1.5% 0;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    
+    .phone-card {
+        /* border: 2px solid green; */
+        border-radius: 5px;
+        background-color: white;
+        box-shadow: var(--shadow);
+        width: 170px;
+        height: 230px;
+        padding: 5px;
+        margin-bottom: 2%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-shrink: 2;
+        line-height: 170%;
+    }
+    
+    .phone-card img {
+        width: 80%;
+        height: 60%;
+    }
+    
+    .phone-card p {
+        font-size: large;
+    }
+    /* SMART PHONES SECTION */
+    /* LEPTOPS SECTION */
+    
+    .leptops-container {
+        /* border: 2px solid black; */
+        width: 100%;
+        height: auto;
+    }
+    
+    .leptops {
+        /* border: 2px solid red; */
+        padding: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    
+    .leptop-card {
+        /* border: 2px solid green; */
+        background-color: white;
+        border-radius: 5px;
+        width: 250px;
+        height: 250px;
+        padding: 50px 40px;
+        margin-top: 12px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+    }
+    
+    .leptop-card span {
+        position: absolute;
+        left: 0;
+        top: 15px;
+        background-color: rgb(106, 106, 231);
+        color: white;
+        font-weight: bold;
+        padding: 10px 15px;
+        border-top-right-radius: 35px;
+        border-bottom-right-radius: 35px;
+        box-shadow: 1px 2px 8px black;
+    }
+    
+    .leptop-card img {
+        width: 80%;
+        height: 80%;
+        margin: 20px 0;
+    }
+    
+    .leptop-card h4 {
+        margin: 5px;
+    }
+    /* LEPTOPS SECTION */
+    /* SMART WATCHES SECTION */
+    
+    .smart-watches-container {
+        /* border: 2px solid red; */
+        margin: 50px 0;
+    }
+    
+    .smart-watches {
+        /* border: 2px solid green; */
+        width: 100%;
+        display: flex;
+        padding: 10px;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    
+    .watch-card {
+        /* border: 2px solid blue; */
+        background-color: rgb(206, 214, 235);
+        box-shadow: var(--shadow);
+        border-radius: 6px;
+        width: 500px;
+        height: 200px;
+        margin: 15px 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .watch-card img {
+        width: 180px;
+        height: 90%;
+    }
+    /* SMART WATCHES SECTION */
+    /* FOOTER SECITON */
+    
+    .footer {
+        /* border: 2px solid red; */
+        background-color: rgb(206, 214, 235);
+        width: 100%;
+        height: 100px;
+        padding: 8px;
+        text-align: center;
+    }
+    
+    .footer p {
+        color: gray;
+        margin-top: 10px;
+    }
+    /* FOOTER SECITON */
+    /* MEDIA QUERIES */
+    
+    @media screen and (max-width: 1067px) {
+        .header-content {
+            width: 100%;
+            height: 200px;
+        }
+        main h2 {
+            font-size: larger;
+        }
+        .phone-card {
+            width: 140px;
+            height: 200px;
+        }
+        .phone-card p {
+            font-size: medium;
+        }
+        .leptop-card {
+            width: 220px;
+            height: 220px;
+            padding: 40px 30px;
+            margin-top: 10px;
+        }
+        .leptop-card span {
+            font-weight: bold;
+            padding: 8px 12px;
+        }
+        .leptop-card h4 {
+            font-size: large;
+        }
+        .watch-card {
+            width: 400px;
+            height: 180px;
+            margin: 12px 0;
+        }
+    }
+    
+    @media screen and (max-width: 948px) {
+        .header-content {
+            width: 100%;
+            height: 180px;
+        }
+        .all-categories ul li {
+            line-height: 180%;
+        }
+        main h2 {
+            font-size: large;
+        }
+        .phone-card {
+            width: 130px;
+            height: 170px;
+        }
+        .phone-card p {
+            font-size: small;
+        }
+        .leptop-card h4 {
+            font-size: medium;
+        }
+        .watch-card {
+            width: 350px;
+            height: 150px;
+            margin: 12px 0;
+            padding: 10px;
+        }
+    }
+    /* FOR SMART WATHCES */
+    
+    @media screen and (max-width: 730px) {
+        .watch-card {
+            flex-direction: column;
+            width: 200px;
+            height: 200px;
+        }
+        .watch-card img {
+            height: 60%;
+            width: 80%;
+        }
+    }
+    
+    @media screen and (max-width: 600px) {
+        .header-content {
+            width: 100%;
+            height: 120px;
+        }
+        .all-categories h3 {
+            font-size: small;
+        }
+        .all-categories ul li {
+            line-height: 200%;
+            font-size: x-small;
+        }
+        main h2 {
+            font-size: medium;
+        }
+        .phone-card {
+            width: 110px;
+            height: 160px;
+        }
+        .phone-card h4 {
+            font-size: small;
+        }
+        .phone-card p {
+            font-size: x-small;
+        }
+        .leptop-card {
+            width: 170px;
+            height: 170px;
+            padding: 25px 18px;
+            margin-top: 10px;
+        }
+        .leptop-card span {
+            top: 6px;
+            font-weight: normal;
+            padding: 6px 10px;
+        }
+        .leptop-card h4 {
+            font-size: small;
+        }
+        .watch-card {
+            width: 190px;
+            height: 190px;
+            padding: 6px;
+        }
+        .watch-card img {
+            height: 60%;
+            width: 80%;
+        }
+        .watch-card h3 {
+            font-size: medium;
+        }
+    }
